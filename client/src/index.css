@@ -1,0 +1,168 @@
+:root {
+  --main-color: #8ba5b2;
+  --secondary-color-1: #2ae0aa;
+  --secondary-color-2: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.pages {
+  width: 100%;
+}
+
+/* Start Navbar Component style */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100%;
+  width: 20vw;
+  padding: 30px;
+  background-color: var(--main-color);
+  color: var(--secondary-color-2);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: var(--secondary-color-2);
+}
+
+.links a:hover {
+  color: var(--secondary-color-1);
+}
+
+.links .icon {
+  font-size: 28px;
+}
+
+.made-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.made-by .design {
+  text-align: center;
+}
+
+.made-by .social-media {
+  color: var(--secondary-color-2);
+  font-size: 20px;
+  margin: 2px;
+}
+
+.made-by .social-media:hover {
+  color: var(--secondary-color-1);
+}
+
+/* End Navbar Component style */
+
+/* Start Home page style */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* End Home page style */
+
+/* Start exhibitors and Visitors page style */
+
+.exhibitors,
+.Visitors {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.button {
+  background-color: var(--main-color);
+  color: var(--secondary-color-1);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover,
+.clicked-button {
+  background-color: var(--secondary-color-1);
+  color: var(--secondary-color-2);
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  border: 1px solid var(--secondary-color-1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.add-button {
+  width: 50%;
+}
+
+input {
+  width: 90%;
+  height: 20px;
+  border-radius: 5px;
+  border-width: 1px;
+  outline: none;
+  padding: 2px 5px;
+  margin: 5px 0px 10px;
+}
+
+/* End exhibitors page style */
+
+/* Start About page style */
+
+.about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End About page style */
